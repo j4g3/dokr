@@ -1,7 +1,7 @@
 {
   "name": "dokr",
   "productName": "Dokr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Start/stop docker containers from tray menu",
   "main": "main.js",
   "scripts": {
