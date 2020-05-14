@@ -19,38 +19,26 @@
     "containers"
   ],
   "author": {
-    "name": "Diego Fernandes",
-    "email": "diego.schell.f@gmail.com",
-    "url": "https://rocketseat.com.br"
+    "name": "João Guilherme",
+    "email": "j4g3dev@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {
-    "electron": "^1.8.4",
-    "electron-builder": "^20.10.0"
+    "electron": "4.0.0",
+    "electron-builder": "20.38.5"
   },
   "dependencies": {
+    "electron-installer-snap": "^5.1.0",
     "node-docker-api": "^1.1.22",
     "path": "^0.12.7"
   },
   "build": {
-    "appId": "com.dokr",
-    "mac": {
-      "category": "public.app-category.developer-tools",
-      "extendInfo": {
-        "LSUIElement": 1
-      }
-    },
-    "dmg": {
-      "window": {
-        "width": 537,
-        "height": 350
-      }
-    },
+    "appId": "com.j4g3.dokr",
     "linux": {
-      "category": "Utility",
       "target": [
-        "deb"
-      ]
+        "snap"
+      ],
+      "category": "Utility"
     }
   }
 }
